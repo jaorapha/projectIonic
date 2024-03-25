@@ -1,17 +1,51 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+  <ion-toolbar color="dark">
+
+    <ion-button class="icons"  fill="clear" slot="start">
+      <ion-icon name="menu-outline"></ion-icon>
+    </ion-button>
+
+    <ion-button class="icons" fill="clear" slot="end">
+      <ion-icon slot="icon-only" name="search"></ion-icon>	
+    </ion-button>
+
+    <ion-button class="icons" fill="clear" slot="end">
+      <ion-icon name="ellipsis-vertical-outline"></ion-icon>
+    </ion-button>
+
+      <ion-title><h1 id="netflix">Netflix</h1></ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+ 
+  <div id="imgSerie">
+    <h1 id="txtTitle">Continuar assistindo</h1>
+   <img src="https://cloudfront-us-east-1.images.arcpublishing.com/estadao/KNY4FR2YCVJ6RMWBZDTAT7YG5Y.jpg" alt="">
+   <p id="txtSubtitle" >Um Maluco no Pedaço: S4:E10 </p>
+   <img id="iconPlay" src="https://cdn-icons-png.flaticon.com/512/0/375.png" alt="">
+  
+  </div>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <h1 id="myList">My List</h1>  
+
+  <div id="series">
+    
+    <img class="banner" src="https://br.web.img2.acsta.net/pictures/19/07/10/20/01/2331295.jpg" alt="">
+    <img class="banner" src="https://musicnonstop.uol.com.br/wp-content/uploads/2021/08/PT-BR_LCDP_S5_Main_Vertical_RGB_PRE-691x1024.jpg  " alt="">
+    <img class="banner"src="https://tm.ibxk.com.br//ms/images/highlights/000/043/954/41604.jpg" alt="">
+    
+
+  </div>
+
+  <hr>
+  
+  <div id="series">
+    
+    <img class="banner" src="https://br.web.img2.acsta.net/pictures/19/07/10/20/01/2331295.jpg" alt="">
+    <img class="banner" src="https://musicnonstop.uol.com.br/wp-content/uploads/2021/08/PT-BR_LCDP_S5_Main_Vertical_RGB_PRE-691x1024.jpg  " alt="">
+    <img class="banner"src="https://tm.ibxk.com.br//ms/images/highlights/000/043/954/41604.jpg" alt="">
+
+  </div>
+ 
 </ion-content>
